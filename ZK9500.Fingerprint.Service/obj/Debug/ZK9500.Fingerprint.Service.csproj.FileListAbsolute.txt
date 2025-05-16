@@ -1,0 +1,9 @@
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\bin\Debug\ZK9500.Fingerprint.Service.exe.config
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\bin\Debug\ZK9500.Fingerprint.Service.exe
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\bin\Debug\ZK9500.Fingerprint.Service.pdb
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\bin\Debug\libzkfpcsharp.dll
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\obj\Debug\ZK9500.Fingerprint.Service.csproj.CoreCompileInputs.cache
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\obj\Debug\ZK9500.Fingerprint.Service.csproj.CopyComplete
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\obj\Debug\ZK9500.Fingerprint.Service.exe
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\obj\Debug\ZK9500.Fingerprint.Service.pdb
+C:\Users\dvazquez\Documents\ProyectosTIMSA\ServicioHuellaParaWindows\ZK9500.Fingerprint.Service\ZK9500.Fingerprint.Service\obj\Debug\ZK9500.Fingerprint.Service.csproj.AssemblyReference.cache
