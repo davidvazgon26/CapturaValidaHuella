@@ -13,6 +13,34 @@ namespace ZK9500.Fingerprint.Service
         private static ManualResetEvent _shutdownEvent = new ManualResetEvent(false);
         static void Main()
         {
+            //solo comenta o descomenta la seccion que necesites utilizar (produccion o degug por consola)
+
+            #region codigo para usar como servicio de windows
+            var servicesToRun = new ServiceBase[]
+             {
+                new ZKFingerService()
+             };
+
+            if (Environment.UserInteractive)
+            {
+                // Modo consola
+                Console.WriteLine("Modo consola - Iniciando servicio...");
+                var service = new ZKFingerService();
+                service.StartForConsole();
+                Console.WriteLine("Servicio en ejecución. Presiona ENTER para detener.");
+                Console.ReadLine();
+                service.StopForConsole();
+            }
+            else
+            {
+                // Modo servicio Windows
+                ServiceBase.Run(servicesToRun);
+            }
+            #endregion
+
+
+            #region codigo para probar y hacer debug  
+
             if (Environment.UserInteractive)
             {
                 Console.CancelKeyPress += (sender, e) =>
@@ -41,6 +69,9 @@ namespace ZK9500.Fingerprint.Service
                 ServiceBase.Run(ServicesToRun);
             }
 
+            #endregion
+
+            #region codigo anterior
             //ServiceBase[] ServicesToRun;
             //ServicesToRun = new ServiceBase[]
             //{
@@ -67,6 +98,7 @@ namespace ZK9500.Fingerprint.Service
             //    };
             //    ServiceBase.Run(ServicesToRun);
             //}
+            #endregion
         }
     }
 }
